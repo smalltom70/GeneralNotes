@@ -1,0 +1,46 @@
+Interfaces
+
+-Belong to any class or strruct
+- It's a contract: makes a commitment
+- its all public
+
+Concrete class different than abstract
+
+propfull snippet
+-backing field
+-public getter and setter
+
+Abstract class 
+- a class with one or more abstract componnents
+-can't create a n instance
+- need to create a concrete class inherited from
+
+Interface is similiar to a purely abstract class
+-Name is different IName
+- only declarations
+- all public
+
+Which class to use
+-Concrete
+--no compile-time checking
+
+-Abstract
+*--Compile time Checking
+*--May contain implementation code
+*--Can only inherit from one class
+--Can contain access modifers public private etc
+--anything in a normal class
+
+-Interface
+--Compile time Checking
+*--can only contain declarations
+*--Any number of implentation
+--Always public
+
+**********************The why****************************
+
+Program to an abstraction rather than a concrete type
+-Program to an interface rather than a concrete class
+
+Concrete class versus Interfaces
+
